@@ -2,25 +2,21 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const PostSchema = new Schema({    	
-	song_number: {
-		type: Number,
-		required: true
-	},
-	song_title: {
+	no: {
 		type: String,
 		required: true
 	},
-	song_artist: {
+	song: {
 		type: String,
 		required: true
 	},
-	song_category: {
+	artist: {
 		type: String,
 		required: true
 	},
-	date: {
-		type: Date,
-		default: Date.now
+	description: {
+		type: String,
+		required: true
 	}
 });
 
