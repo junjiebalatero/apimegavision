@@ -1,5 +1,7 @@
-A basic RESTFUL API manipulation - get, post, patch and delete
+angularJS web https://marjie-megavision.onrender.com
 
-using:
+angularJS code https://github.com/junjiebalatero/junjieKodAngularJS
 
-        nodejs, express, mongoose, mongo atlas
+api web https://apimegavision.herokuapp.com/api/posts
+
+api code https://github.com/junjiebalatero/apimegavision
